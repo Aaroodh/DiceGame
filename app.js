@@ -11,9 +11,9 @@ app.use(express.static("public"));
 
 app.set("view engine", "ejs");
 
-app.listen(process.env.PORT || 3000 , function () {
+app.listen(process.env.PORT || 3001 , function () {
 
-    console.log("server started at 2001..")
+    console.log("server started at 3001..")
 
 });
 
