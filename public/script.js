@@ -51,6 +51,10 @@ document.querySelector('.btn--hold').addEventListener('click',function(event){
 
 });
 
+const newGame=()=>{
+    return true;
+}
+
 function nextPlayer(){
      //change player using terenary operator
      activePlayer=== 0 ? activePlayer = 1 : activePlayer = 0;
